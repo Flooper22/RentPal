@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hometenant_bg"
+    tools:context=".TenantHomePage">
+
+
+    <TextView
+        android:id="@+id/HomeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="22sp"
+        android:layout_marginEnd="175sp"
+        android:text="HOME"
+        android:textColor="#000000"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="43sp"
+        android:layout_height="44sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40sp"
+        android:layout_marginEnd="22sp"
+        app:srcCompat="@drawable/settingsicon" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="43sp"
+        android:layout_height="44sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40sp"
+        android:layout_marginEnd="81sp"
+        app:srcCompat="@drawable/notificationicon" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="238sp"
+        android:layout_height="176sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="108sp"
+        android:layout_marginEnd="36sp"
+        app:srcCompat="@drawable/profileholder" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="77sp"
+        android:layout_height="109sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="142sp"
+        android:layout_marginTop="139sp"
+        app:srcCompat="@drawable/homeprofile" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="84sp"
+        android:layout_height="77sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="165sp"
+        android:layout_marginBottom="304sp"
+        app:srcCompat="@drawable/paymenthistoryicon" />
+
+    <Button
+        android:id="@+id/historybtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="155sp"
+        android:layout_marginBottom="248sp"
+        android:text="History"
+        android:textColor="#000000"
+        app:backgroundTint="#D9D9D9" />
+
+    <Button
+        android:id="@+id/methodbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="291sp"
+        android:layout_marginBottom="248sp"
+        android:text="Method"
+        android:textColor="#000000"
+        app:backgroundTint="#D9D9D9" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="84sp"
+        android:layout_height="77sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="29sp"
+        android:layout_marginBottom="304sp"
+        app:srcCompat="@drawable/paymentmethodicon" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="84sp"
+        android:layout_height="77sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="29sp"
+        android:layout_marginBottom="304sp"
+        app:srcCompat="@drawable/feeicon" />
+
+    <Button
+        android:id="@+id/feesbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25sp"
+        android:layout_marginBottom="248sp"
+        android:text="FEES"
+        android:textColor="#000000"
+        app:backgroundTint="#D9D9D9" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="207sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20sp"
+        android:layout_marginBottom="24sp"
+        app:srcCompat="@drawable/reminderholder" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="7sp"
+        android:text="PAY NOW"
+        android:textColor="#000000"
+        app:backgroundTint="#D9D9D9" />
+
+</RelativeLayout>

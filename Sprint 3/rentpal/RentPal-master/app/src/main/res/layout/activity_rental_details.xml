@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rentaldetailspage"
+    tools:context=".RentalDetails">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="242sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="33sp"
+        android:layout_marginTop="516sp"
+        android:text="Upcoming Cash Flow of Payments"
+        android:textColor="#143656"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="119sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="44sp"
+        android:layout_marginTop="181sp"
+        android:text="Landowner Rating:"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="119sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="44sp"
+        android:layout_marginTop="200sp"
+        android:text="Property Rating:"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="36sp"
+        android:layout_height="40sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="348sp"
+        android:layout_marginBottom="366sp"
+        app:srcCompat="@drawable/filtericon" />
+
+    <ImageView
+        android:id="@+id/backbtndetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19sp"
+        android:layout_marginTop="18sp"
+        android:onClick="onClick"
+        app:srcCompat="@drawable/backbutton" />
+
+    <ImageView
+        android:id="@+id/quickmenubtndetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="24sp"
+        android:layout_marginEnd="20sp"
+        app:srcCompat="@drawable/quickmenuicon" />
+
+    <TextView
+        android:id="@+id/historytitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="29sp"
+        android:layout_marginEnd="143sp"
+        android:text="Rental Details"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="306sp"
+        android:layout_marginTop="104sp"
+        app:srcCompat="@drawable/bankingicon" />
+
+    <Button
+        android:id="@+id/paybtn7"
+        android:layout_width="94sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="174sp"
+        android:layout_marginEnd="19sp"
+        android:text="Change Linked Bank Account"
+        android:textColor="#000000"
+        android:textSize="7sp"
+        app:backgroundTint="#D9D9D9" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="76sp"
+        android:layout_height="81sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44sp"
+        android:layout_marginTop="97sp"
+        app:srcCompat="@drawable/homeprofile" />
+
+</RelativeLayout>

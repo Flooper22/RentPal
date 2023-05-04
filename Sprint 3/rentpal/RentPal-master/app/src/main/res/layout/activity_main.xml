@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginpage_bg"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120sp"
+        android:layout_height="90sp"
+        android:layout_above="@+id/imageView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="239sp"
+        android:layout_marginBottom="79dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/loginicon" />
+
+    <TextView
+        android:id="@+id/feetitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="214sp"
+        android:layout_marginEnd="40sp"
+        android:text="Login"
+        android:textColor="#5CB8B8"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="251sp"
+        android:layout_marginBottom="363sp"
+        app:srcCompat="@drawable/divider"
+        android:contentDescription="@string/todo2" />
+
+    <EditText
+        android:id="@+id/usernamelogin"
+        android:layout_width="257sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="6sp"
+        android:layout_marginBottom="289sp"
+        android:ems="10"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#5CB8B8"
+        android:textSize="20sp"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/passid"
+        android:layout_width="258sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="4sp"
+        android:layout_marginBottom="230sp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="#5CB8B8"
+        android:textSize="20sp"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/forgotpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="219sp"
+        android:layout_marginBottom="200sp"
+        android:text="Forgot Password"
+        android:textColor="#656565"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:ignore="RelativeOverlap" />
+
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="101sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="226sp"
+        android:layout_marginBottom="149sp"
+        android:text="Login"
+        android:textColor="#000000"
+        app:backgroundTint="#B2DFF2" />
+
+    <TextView
+        android:id="@+id/signupid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="180sp"
+        android:layout_marginBottom="98sp"
+        android:text="Don't have an account? Sign Up"
+        android:textColor="#656565"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
